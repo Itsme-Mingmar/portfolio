@@ -67,7 +67,7 @@ const Hero = () => {
 
               {/* LinkedIn */}
               <a
-                href="https://linkedin.com/in/basanta-pakhrin-156a12351/"
+                href="https://linkedin.com/in/basanta-pakhrin/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-text-secondary hover:text-accent transition-all duration-300 hover:scale-110"
