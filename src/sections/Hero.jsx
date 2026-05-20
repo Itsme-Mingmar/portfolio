@@ -10,9 +10,11 @@ const Hero = () => {
 
   const handleDownloadResume = () => {
     const link = document.createElement('a')
-    link.href = '#'
-    link.download = 'Mingmar_Tamang_Resume.pdf'
+    link.href = '/resume/Basanta_Pakhrin_Resume.pdf'
+    link.download = 'Basanta_Pakhrin_Resume.pdf'
+    document.body.appendChild(link)
     link.click()
+    document.body.removeChild(link)
   }
 
   return (
