@@ -5,9 +5,9 @@ export const projects = [
     id: 1,
     title: "Regional OTT Streaming Platform",
     category: "Full Stack",   // ← NEW  ('Full Stack' | 'MERN' | 'ML')
-    featured: true,   
+    featured: true,
     image: "images/regional-ott.png",        // ← NEW  shows ★ badge
-    
+
 
     description:
       "A full-stack regional OTT streaming platform designed to promote local and regional content with personalized movie recommendations, secure authentication, and content management features.",
@@ -18,8 +18,8 @@ export const projects = [
     ],
 
     github: {
-      frontend:       "https://github.com/Itsme-Mingmar/regional-ott-frontend",
-      backend:        "https://github.com/Itsme-Mingmar/regional-ottbackfinal",
+      frontend: "https://github.com/Itsme-Mingmar/regional-ott-frontend",
+      backend: "https://github.com/Itsme-Mingmar/regional-ottbackfinal",
       recommendation: "https://github.com/Itsme-Mingmar/regional-ott-recommendation",
     },
 
@@ -51,39 +51,40 @@ export const projects = [
   },
   {
     id: 2,
-    title: "MovieRecommender — ML System",
-    category: "ML",           // ← NEW
+    title: "Nutripulse - Nutrition supply store",
+    category: "MERN",           // ← NEW
     // image: "/screenshots/recommender.png",
 
     description:
-      "Machine learning-based recommendation system using collaborative filtering and content-based filtering techniques.",
+      "A full-stack e-commerce platform for a nutrition supply store with product management, user authentication, and payment integration.",
 
-    techStack: ["Python", "Scikit-learn", "Pandas", "Flask", "React", "TensorFlow"],
+    techStack: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT"],
 
     github: {
-      frontend: "https://github.com/mingmartamang/movie-recommender",
+      frontend: "https://github.com/Itsme-Mingmar/E-commerce-/tree/main/frontend",
+      backend: "https://github.com/Itsme-Mingmar/E-commerce-/tree/main/backend",
     },
 
-    live: "https://movierecommender-demo.herokuapp.com",
+    //live: "https://nutripulse.vercel.app",
 
     details: {
       problem:
-        "Users spend too much time searching for movies they might like, and existing recommendation systems lack personalization.",
+        "Customers often find it difficult to discover and purchase health and nutrition products through a simple, organized, and user-friendly online platform.",
 
       solution:
-        "Developed a hybrid recommendation system combining collaborative filtering and content-based approaches to provide highly accurate movie suggestions.",
+        "Developed NutriPulse, a full-stack e-commerce platform that enables users to browse, search, and purchase nutrition and wellness products through a secure and responsive online shopping experience.",
 
       features: [
-        "Hybrid recommendation algorithm",
-        "User preference learning",
-        "Real-time recommendations",
-        "Similarity score visualization",
-        "Genre-based filtering",
-        "Rating prediction system",
+        "User authentication and authorization",
+        "Product browsing and search",
+        "Category-based product filtering",
+        "Shopping cart management",
+        "Secure checkout process",
+        "Order management dashboard",
       ],
 
       challenges:
-        "Handling the cold-start problem for new users and optimizing the recommendation algorithm for real-time performance with a large movie database.",
+        "Implementing secure user authentication, managing shopping cart state, designing an intuitive user interface, and ensuring efficient product and order management across the application.",
     },
   },
 ]
